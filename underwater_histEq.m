@@ -89,7 +89,7 @@ for j = 1 : 6
             imshow(RGBImage);
             subplot(1, 2, 2);
             imshow(RGB_eq);
-            imwrite(RGB_eq, fullfile(outputDirID, [num2str(indFrame-1, '%.4d') '.jpg']));
+            imwrite(RGB_eq, fullfile(outputDirID, RGBFileName));
             hold on;
         end
     end

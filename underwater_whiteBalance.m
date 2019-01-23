@@ -79,7 +79,7 @@ for l = 1 : 6
             imshow(RGBImage);
             subplot(1, 2, 2);
             imshow(RGBImage_whiteBalance);
-            imwrite(RGBImage_whiteBalance, fullfile(outputDirID, [num2str(indFrame-1, '%.4d') '.jpg']));
+            imwrite(RGBImage_whiteBalance, fullfile(outputDirID, RGBFileName));
             hold on;
         end
     end
