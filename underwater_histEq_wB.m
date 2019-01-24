@@ -55,8 +55,8 @@ inputDir_ImageSets = fullfile(inputDir, 'ImageSets');
 inputDir_Annotations = fullfile(inputDir, 'Annotations');
 outputDir_ImageSets = fullfile(outputDir, 'ImageSets');
 outputDir_Annotations = fullfile(outputDir, 'Annotations');
-copyfile '~/Desktop/underwater_dataset/raw_data/VOC2007/ImageSets' '~/Desktop/underwater_dataset/whiteBalance/VOC2007/ImageSets'
-copyfile '~/Desktop/underwater_dataset/raw_data/VOC2007/Annotations' '~/Desktop/underwater_dataset/whiteBalance/VOC2007/Annotations'
+copyfile '~/Desktop/underwater_dataset/raw_data/VOC2007/ImageSets' '~/Desktop/underwater_dataset/histEq_wB/VOC2007/ImageSets'
+copyfile '~/Desktop/underwater_dataset/raw_data/VOC2007/Annotations' '~/Desktop/underwater_dataset/histEq_wB/VOC2007/Annotations'
 
 % % % --------------Process Image--------------------% % %
 for l = 1 : 6
